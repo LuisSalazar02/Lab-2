@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #f9f9fa;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-color: #3f3f3f;
+}
+
+a {
+  color: #3f3f3f;
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 0;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.col,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-8,
+.col-10,
+.col-9,
+.col-12 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.col:first-child,
+.col-1:first-child,
+.col-2:first-child,
+.col-3:first-child,
+.col-4:first-child,
+.col-8:first-child,
+.col-10:first-child,
+.col-9:first-child,
+.col-12:first-child {
+  padding-left: 0rem;
+}
+
+.col:last-child,
+.col-1:last-child,
+.col-2:last-child,
+.col-3:last-child,
+.col-4:last-child,
+.col-8:last-child,
+.col-10:last-child,
+.col-9:last-child,
+.col-12:last-child {
+  padding-right: 0rem;
+}
+
+.col-1 {
+  flex-basis: calc(100% * 1 / 12);
+}
+
+.col-2 {
+  flex-basis: calc(100% * 2 / 12);
+}
+
+.col-3 {
+  flex-basis: calc(100% * 3 / 12);
+}
+
+.col-4 {
+  flex-basis: calc(100% * 4 / 12);
+}
+
+.col-8 {
+  flex-basis: calc(100% * 8 / 12);
+}
+
+.col-9 {
+  flex-basis: calc(100% * 9 / 12);
+}
+
+.col-10 {
+  flex-basis: calc(100% * 10 / 12);
+}
+
+.col-12 {
+  flex-basis: calc(100% * 12 / 12);
+}
+
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 1rem;
+}
+
+.mr-3 {
+  margin-right: 1.5rem;
+}
+
+.mr-4 {
+  margin-right: 2rem;
+}
+
+.mr-5 {
+  margin-right: 3rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.mb-5 {
+  margin-bottom: 3rem;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fluid {
+  width: 100%;
+}
